@@ -1,5 +1,5 @@
 import { Transition } from "@headlessui/react";
-import { Close, Home, Menu, Search, ShoppingBag, ThreePRounded } from "@mui/icons-material";
+import { Close, Home, Menu, Search, ShoppingBag } from "@mui/icons-material";
 import React, { useState } from "react";
 
 
