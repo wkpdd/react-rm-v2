@@ -5,10 +5,15 @@ import MyNavBar from "./beginner-projects/nav-bar/NavBar";
 import useWindowDimensions from './utils/screen-dementions';
 import Auth0Dev from './beginner-projects/auth0/Auth0';
 import { Auth0Provider, useAuth0 } from "@auth0/auth0-react";
+import TodoList from './beginner-projects/todo-list/Todo';
+import {useEffect} from "react";
 
 
 function App() {
   const {width, height} = useWindowDimensions();
+  useEffect(()=>{
+    // window.localStorage.removeItem("data")
+  },[])
   return (
     <Auth0Provider
             domain="dev-set564df.us.auth0.com"
@@ -19,8 +24,9 @@ function App() {
       {/* <RegistrationForm/> */}
       {/*  <QuizApp/>*/}
       {/* <MyNavBar/> */}
-      <Auth0Dev/>
-        {/* <p>{width+" --- "+height}</p> */}
+      {/* <Auth0Dev/> */}
+      <TodoList/>
+
     </div>
     </Auth0Provider>
   )
