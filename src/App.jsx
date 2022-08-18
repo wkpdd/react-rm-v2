@@ -1,14 +1,14 @@
 import './App.css'
-import RegistrationForm from "./beginner-projects/registration-form/RegistrationForm.jsx";
-import QuizApp from "./beginner-projects/quiz-app/QuizApp.jsx";
-import MyNavBar from "./beginner-projects/nav-bar/NavBar";
+import RegistrationForm from "./projects/registration-form/RegistrationForm.jsx";
+import QuizApp from "./projects/quiz-app/QuizApp.jsx";
+import MyNavBar from "./projects/nav-bar/NavBar";
 import useWindowDimensions from './utils/screen-dementions';
-import Auth0Dev from './beginner-projects/auth0/Auth0';
+import Auth0Dev from './projects/auth0/Auth0';
 import { Auth0Provider, useAuth0 } from "@auth0/auth0-react";
-import TodoList from './beginner-projects/todo-list/Todo';
+import TodoList from './projects/todo-list/Todo';
 import {useEffect} from "react";
-import Calculator from "./beginner-projects/calculator/Calculator";
-import ContactsList from "./beginner-projects/SimpleContactList/SimpleContactList.jsx";
+import Calculator from "./projects/calculator/Calculator";
+import ContactsList from "./projects/SimpleContactList/SimpleContactList.jsx";
 
 
 function App() {
@@ -23,10 +23,10 @@ function App() {
             redirectUri={window.location.origin}
         >
     <div>
-      {/* <RegistrationForm/> */}
-      {/*  <QuizApp/>*/}
-      {/* <MyNavBar/> */}
-      {/* <Auth0Dev/> */}
+       {/*<RegistrationForm/>*/}
+       {/* <QuizApp/>*/}
+       {/*<MyNavBar/>*/}
+       {/*<Auth0Dev/>*/}
       {/*<TodoList/>*/}
       {/*<Calculator/>*/}
       <ContactsList/>
