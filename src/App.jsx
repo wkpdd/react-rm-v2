@@ -7,6 +7,7 @@ import Auth0Dev from './beginner-projects/auth0/Auth0';
 import { Auth0Provider, useAuth0 } from "@auth0/auth0-react";
 import TodoList from './beginner-projects/todo-list/Todo';
 import {useEffect} from "react";
+import Calculator from "./beginner-projects/calculator/Calculator";
 
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
       {/*  <QuizApp/>*/}
       {/* <MyNavBar/> */}
       {/* <Auth0Dev/> */}
-      <TodoList/>
-
+      {/*<TodoList/>*/}
+      <Calculator/>
     </div>
     </Auth0Provider>
   )
