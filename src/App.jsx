@@ -9,28 +9,27 @@ import TodoList from './projects/todo-list/Todo';
 import {useEffect} from "react";
 import Calculator from "./projects/calculator/Calculator";
 import ContactsList from "./projects/SimpleContactList/SimpleContactList.jsx";
+import RecipeApp from './projects/recipe-app/RecipeApp';
 
 
 function App() {
-  const {width, height} = useWindowDimensions();
-  useEffect(()=>{
-    // window.localStorage.removeItem("data")
-  },[])
+
   return (
     <Auth0Provider
             domain="dev-set564df.us.auth0.com"
             clientId="gDLl5t8YDfzeqoz1sAG9Lp8qleAvqT1a"
             redirectUri={window.location.origin}
         >
-    <div>
-       {/*<RegistrationForm/>*/}
-       {/* <QuizApp/>*/}
-       {/*<MyNavBar/>*/}
-       {/*<Auth0Dev/>*/}
-      {/*<TodoList/>*/}
-      {/*<Calculator/>*/}
-      <ContactsList/>
-    </div>
+      <div>
+        {/*<RegistrationForm/>*/}
+        {/* <QuizApp/>*/}
+        {/*<MyNavBar/>*/}
+        {/*<Auth0Dev/>*/}
+        {/*<TodoList/>*/}
+        {/*<Calculator/>*/}
+        {/* <ContactsList/> */}
+        <RecipeApp/>
+      </div>
     </Auth0Provider>
   )
 }
