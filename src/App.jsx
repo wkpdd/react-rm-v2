@@ -15,11 +15,11 @@ import RecipeApp from './projects/recipe-app/RecipeApp';
 function App() {
 
   return (
-    <Auth0Provider
-            domain="dev-set564df.us.auth0.com"
-            clientId="gDLl5t8YDfzeqoz1sAG9Lp8qleAvqT1a"
-            redirectUri={window.location.origin}
-        >
+    // <Auth0Provider
+    //         domain="dev-set564df.us.auth0.com"
+    //         clientId="gDLl5t8YDfzeqoz1sAG9Lp8qleAvqT1a"
+    //         redirectUri={window.location.origin}
+    //     >
       <div>
         {/*<RegistrationForm/>*/}
         {/* <QuizApp/>*/}
@@ -30,7 +30,7 @@ function App() {
         {/* <ContactsList/> */}
         <RecipeApp/>
       </div>
-    </Auth0Provider>
+    // </Auth0Provider>
   )
 }
 
