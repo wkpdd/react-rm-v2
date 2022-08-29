@@ -10,6 +10,7 @@ import {useEffect} from "react";
 import Calculator from "./projects/calculator/Calculator";
 import ContactsList from "./projects/SimpleContactList/SimpleContactList.jsx";
 import RecipeApp from './projects/recipe-app/RecipeApp';
+import ShoppingList from './projects/shopping-list/ShoppingList';
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
         {/*<TodoList/>*/}
         {/*<Calculator/>*/}
         {/* <ContactsList/> */}
-        <RecipeApp/>
+        {/* <RecipeApp/> */}
+        <ShoppingList/>
       </div>
     // </Auth0Provider>
   )
