@@ -11,6 +11,8 @@ import Calculator from "./projects/calculator/Calculator";
 import ContactsList from "./projects/SimpleContactList/SimpleContactList.jsx";
 import RecipeApp from './projects/recipe-app/RecipeApp';
 import ShoppingList from './projects/shopping-list/ShoppingList';
+import WeatherApp from './projects/weather-app/WeatherApp';
+import Portfolio from './portfolio/Portfolio';
 
 
 function App() {
@@ -30,7 +32,9 @@ function App() {
         {/*<Calculator/>*/}
         {/* <ContactsList/> */}
         {/* <RecipeApp/> */}
-        <ShoppingList/>
+        {/* <ShoppingList/> */}
+        <WeatherApp/>
+        {/* <Portfolio/> */}
       </div>
     // </Auth0Provider>
   )
